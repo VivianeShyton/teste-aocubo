@@ -1,4 +1,4 @@
-# testes-automatizados
+# testes AoCubo
 
 <h2>Para iniciar o teste</h2>
 
