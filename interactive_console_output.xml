@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.4 on win32)" generated="20221213 17:56:26.371" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Vinícius Lopo\.vscode\extensions\robocorp.robotframework-lsp-1.6.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Dado">
+<arg>que o usuário esteja na pagina home</arg>
+<msg timestamp="20221213 17:56:27.825" level="FAIL">No keyword with name 'Dado' found.</msg>
+<status status="FAIL" starttime="20221213 17:56:27.825" endtime="20221213 17:56:27.825"/>
+</kw>
+<kw name="Quando">
+<arg>digitar usuário e senha</arg>
+<status status="NOT RUN" starttime="20221213 17:56:27.827" endtime="20221213 17:56:27.827"/>
+</kw>
+<kw name="E">
+<arg>clicar no botão "Fazer Login"</arg>
+<status status="NOT RUN" starttime="20221213 17:56:27.829" endtime="20221213 17:56:27.829"/>
+</kw>
+<kw name="E">
+<arg>o sistema redirecionar para a página dashboard</arg>
+<status status="NOT RUN" starttime="20221213 17:56:27.830" endtime="20221213 17:56:27.830"/>
+</kw>
+<kw name="E">
+<arg>clicar no botão "Imóveis"</arg>
+<status status="NOT RUN" starttime="20221213 17:56:27.831" endtime="20221213 17:56:27.831"/>
+</kw>
+<kw name="Então">
+<arg>o sistema deverá redirecionar para a página de Imóveis</arg>
+<status status="NOT RUN" starttime="20221213 17:56:27.833" endtime="20221213 17:56:27.834"/>
+</kw>
+<status status="PASS" starttime="20221213 17:56:26.405" endtime="20221213 17:56:30.276"/>
+</kw>
+<status status="PASS" starttime="20221213 17:56:26.404" endtime="20221213 17:56:30.277"/>
+</test>
+<status status="PASS" starttime="20221213 17:56:26.371" endtime="20221213 17:56:30.281"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
